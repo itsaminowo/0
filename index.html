@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Coding Presentation</title>
+<title>Coding Presentation by Amin</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <!-- BOOTSTRAP CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <!-- ICONS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-<!-- INLINE CSS -->
-<style>
- body {
+ <style>
+   body {
    color:#a79e8f;
+     font-family: Georgia, serif!important;
+}
+a {
+     text-decoration: none;
+}
+a:link {
+   color:	#777672;
+   text-decoration: none;
  }
- a:link {
-   color:#a79e8f;
- }
- a:hover {
-   color:#a79e8f;
+a:hover {
+  text-decoration: none;
+  color: #231e1a!important;
+  background-color: #777672!important;
  }
 a:active {
-  color:#a79e8f;
+  color:#a79e8f!important;
+  text-decoration: none;
 }  
 .nav-link {
   color: #a79e8f !important;
@@ -28,21 +35,32 @@ a:active {
   margin-top:10px;
 }
 .nav-link.active {
-  color: 	#231e1a !important;
-  background-color: #777672!important;
+   color: #6f6a66!important;
+   background-color: #a79e8f!important;
+}
+.spec {
+  color: #6f6a66!important;
+  text-transform: uppercase;
+  margin-left:22.5px;
+  margin-top:10px;
+  background-color: #a79e8f!important;
+  text-decoration:none;
+}
+.spec.active {
+   color: #6f6a66!important;
+   background-color: #a79e8f!important;
 }
 .navbar-nav> .active > a,
 .navbar-nav > .active > a:hover {
       color: #FFF !important;
       background-color: #000!important;
  }
-</style>
+ </style>
   </head> 
-<!-- THE BODY, WHERE ALL TEXT/SURFACE CODE GOES -->
-  <body style="background-color:#231e1a;">
+<body style="background-color:#231e1a;">
 <div class="row">
   <div class="col-4">
-    <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+
       <nav class="nav nav-pills flex-column">
         <center><a class="nav-link" href="#item-1">What is coding? <i class="bi bi-code-slash"></i></a></center>
         <nav class="nav nav-pills flex-column">
@@ -52,6 +70,7 @@ a:active {
         </nav>
         <center><a class="nav-link" href="#item-2">What is coding used for? <i class="bi bi-journal-code"></i></a></center>
         <center><a class="nav-link" href="#item-3">How can <b>you</b> code? <i class="bi bi-pen"></i></a></center>
+        <center><a class="nav-link" href="#item-3-1">Licensing & Copyright <i class="bi bi-c-circle"></i></a></center>
        
 
         </nav>
@@ -59,12 +78,12 @@ a:active {
     </nav>
   </div>
 
-  <div class="col-8" style="color:#a79e8f;">
+  <div class="col-8" style="color:#a79e8f; margin-bottom:15px;">
     <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
   
       <div id="item-1" style="margin-top:15px;">
         <h3><b>What is coding? <i class="bi bi-braces-asterisk"></i></b></h3>
-        <p><i class="bi bi-caret-right-fill"></i> Coding, or computer programming, is the composition of instructions that computers, and sometimes servers, can follow to perform tasks. It involves designing and implementing algorithms, step-by-step specifications of procedures, by writing code in one or more programming/coding languages. Proficient programming usually requires expertise in several different subjects, including knowledge of the application domain, details of programming languages, specialized algorithms, and formal logic. <i class="bi bi-info-circle-fill"></i></p>
+        <p><i class="bi bi-caret-right-fill"></i>  Coding, or computer programming, is the composition of instructions that computers, and sometimes servers, can follow to perform tasks. It involves designing and implementing algorithms, step-by-step specifications of procedures, by writing code in one or more programming/coding languages. Proficient programming usually requires expertise in several different subjects, including knowledge of the application domain, details of programming languages, specialized algorithms, and formal logic. <i class="bi bi-info-circle-fill"></i></p>
       </div>
       <div id="item-1-1">
 <h3><b>How was coding made? <i class="bi bi-wrench-adjustable"></i></b></h3>
@@ -82,7 +101,39 @@ a:active {
         <h4>Item 3</h4>
         <p>...</p>
       </div>
-     
+            <div id="item-3-1">
+<h3><b>Licensing & Copyright <i class="bi bi-text-paragraph"></i></b></h3>
+        <p><i class="bi bi-caret-right-fill"></i> Copyright © 2024, Amin Rahman <i class="bi bi-patch-exclamation-fill"></i></p>
+<p><i class="bi bi-caret-right-fill"></i> Copyright © 2024, LM Designs <i class="bi bi-patch-exclamation-fill"></i></p>
+<p><i class="bi bi-caret-right-fill"></i> Copyright © LM Productions <i class="bi bi-patch-exclamation-fill"></i></p>
+<p><i class="bi bi-caret-right-fill"></i> Copyright ©
+ 2011-2022, Twitter Inc. <i class="bi bi-patch-exclamation-fill"></i></p>
+ <p><i class="bi bi-caret-right-fill"></i> Copyright ©
+ 2011-2022, The Bootstrap Authors <i class="bi bi-patch-exclamation-fill"></i></p>
+ <p><i class="bi bi-caret-right-fill"></i> The Bootstrap CDN(s) has been used under an MIT license, which can be found here: <a href="https://github.com/twbs/bootstrap/blob/v5.2.3/LICENSE" style="color:#777672;">Bootstrap MIT License</a> <i class="bi bi-newspaper"></i></p>
+ <p><i class="bi bi-caret-right-fill"></i> Color scheme & overall theme inspired by Taylor Swift's 11th album, "The Tortured Poets Department". <i class="bi bi-pen"></i></p>
+      </div>
+
+ <!-- Button trigger modal -->
+<a class="spec" href="#item-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  "BE QUIET" Modal Trigger
+  </a>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color:#a79e8f;">
+
+        <center><h1 style="color:red; font-size: 100px;">BE QUIET!</h1></center>
+
+      </div>
+         <div class="modal-body" style="background-color:#6f6a66;">
+                     <center><h6 style="margin-top:8px;">Click anywhere within the surrounding area to dismiss.</h6></center>
+      </div>
+   <div class="modal-footer" style="background-color:#a79e8f;">
+
+      </div>
     </div>
   </div>
 </div>
